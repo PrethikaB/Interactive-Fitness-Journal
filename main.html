@@ -27,10 +27,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: #ad3713;
+            background: linear-gradient(90deg, #000, #ff5722);
             color: white;
             padding: 15px 20px;
-            font-size: large;
+            font-size: 25px;
         }
 
         /* Profile (Left Side) */
@@ -51,7 +51,8 @@
         .goals {
             display: flex;
             gap: 20px;
-            font-size: 14px;
+            font-size: 20px;
+            color: black;
         }
 
         /* Dashboard Layout */
@@ -59,7 +60,7 @@
             display: flex;
             width: 100%;
             flex: 1;
-            background: linear-gradient(90deg, #000000, #ff5722);
+            background-color: white;
         }
 
         .sidebar {
@@ -68,6 +69,7 @@
             flex-direction: column;
             align-items: center;
             padding-top: 20px;
+            background: linear-gradient(90deg, #000, #ff5722);
         }
 
         .sidebar nav a {
@@ -86,38 +88,6 @@
             display: flex;
             flex-direction: column; /* Stack elements vertically */
             align-items: center;
-        }
-
-        /* Search and Schedule Button */
-        .search-container {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .search-container input {
-            width: 500px;
-            height: 50px;
-            padding: 10px;
-            font-size: 18px;
-            border-radius: 5px;
-            border: none;
-        }
-
-        .search-container button {
-            height: 50px;
-            width: 300px;
-            padding: 10px 20px;
-            font-size: 20px;
-            border: none;
-            background: #ff5722;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .search-container button:hover {
-            background: #e64a19;
         }
 
         /* Cards Section */
@@ -193,12 +163,6 @@
         </aside>
 
         <main class="main-content">
-            <!-- Search Section -->
-            <div class="search-container">
-                <input type="text" placeholder="Search">
-                <button class="schedule-btn">Schedule Events</button>
-            </div>
-
             <!-- Cards Section -->
             <section class="cards">
                 <div class="card cycling">
